@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\pas2js\bin\pas2js.exe" Date="1357418685"/>
+  <Params Value=" -Tbrowser -Pecmascript5 -MObjFPC -Sc -O1 -l -vewnhibq -FiE:\Projetos\Lazarus.Pas2JS\js -FuE:\Projetos\Lazarus.Pas2JS\ -FUE:\Projetos\Lazarus.Pas2JS\js\ -FEE:\Projetos\Lazarus.Pas2JS\ -oE:\Projetos\Lazarus.Pas2JS\project1.js -Jeutf-8 -Jirtl.js -Jc -Jminclude project1.lpr"/>
+</CONFIG>
