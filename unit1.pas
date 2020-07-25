@@ -28,7 +28,7 @@ end;
 procedure TControllerIndex.btDownload2Click;
 begin
   Writeln('teste2');
-  Writeln(Self.btDownload2.labels.Nodes);
+  Writeln(Self.btDownload2.labels);
 end;
 
 constructor TControllerIndex.Create;
