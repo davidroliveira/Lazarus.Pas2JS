@@ -2619,24 +2619,33 @@ rtl.module("browserapp",["System","Classes","SysUtils","Types","JS","Web","CustA
     return Result;
   };
 });
-rtl.module("Unit1",["System","Classes","SysUtils","Web"],function () {
+rtl.module("Unit1",["System","Classes","SysUtils","Web","JS"],function () {
   "use strict";
   var $mod = this;
   rtl.createClass($mod,"TControllerIndex",pas.System.TObject,function () {
     this.$init = function () {
       pas.System.TObject.$init.call(this);
       this.btDownload = null;
+      this.btDownload2 = null;
     };
     this.$final = function () {
       this.btDownload = undefined;
+      this.btDownload2 = undefined;
       pas.System.TObject.$final.call(this);
     };
     this.btDownloadClick = function () {
       pas.System.Writeln("teste");
+      pas.System.Writeln(this.btDownload);
+    };
+    this.btDownload2Click = function () {
+      pas.System.Writeln("teste2");
+      pas.System.Writeln(this.btDownload2.labels);
     };
     this.Create$1 = function () {
       this.btDownload = document.getElementById("btDownload");
       this.btDownload.addEventListener("click",rtl.createCallback(this,"btDownloadClick"));
+      this.btDownload2 = document.getElementById("btDownload2");
+      this.btDownload2.addEventListener("click",rtl.createCallback(this,"btDownload2Click"));
       return this;
     };
   });

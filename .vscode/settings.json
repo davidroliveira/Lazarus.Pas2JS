@@ -1,0 +1,4 @@
+{
+    "omnipascal.defaultDevelopmentEnvironment": "FreePascal",
+    "omnipascal.searchPath": "C:\\lazarus\\pas2js\\packages\\*"
+}

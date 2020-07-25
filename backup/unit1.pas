@@ -5,7 +5,11 @@ unit Unit1;
 interface
 
 uses
-  Classes, SysUtils, Web;
+  Classes, SysUtils, Web,
+
+
+
+  JS;
 
 type
   TControllerIndex = class
@@ -15,19 +19,7 @@ type
     constructor Create; reintroduce;
   end;
 
-//procedure btDownloadClick;
-
-//var
-//  btDownload: TJSHTMLButtonElement;
-
 implementation
-
-//procedure btDownloadClick;
-//begin
-//  Writeln('teste');
-//end;
-
-{ TPageIndex }
 
 procedure TControllerIndex.btDownloadClick;
 begin

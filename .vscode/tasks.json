@@ -1,0 +1,17 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "pas2js",
+            "type": "shell",
+            "command": "C:\\lazarus\\pas2js\\bin\\pas2js.exe -Tbrowser -Pecmascript5 -MObjFPC -Sc -O1 -l -vewnhibq -FiE:\\Projetos\\Lazarus.Pas2JS\\js -FuE:\\Projetos\\Lazarus.Pas2JS\\ -FUE:\\Projetos\\Lazarus.Pas2JS\\js\\ -FEE:\\Projetos\\Lazarus.Pas2JS\\ -oE:\\Projetos\\Lazarus.Pas2JS\\project1.js -Jeutf-8 -Jirtl.js -Jc -Jminclude project1.lpr",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
