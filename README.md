@@ -1,1 +1,1 @@
-# Lazarus.Pas2JS
+# Lazarus/VS.Code/Pas2JS
